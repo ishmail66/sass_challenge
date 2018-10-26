@@ -1,0 +1,48 @@
+/***Variables***/
+
+$primary-color:green;
+
+
+
+p.speech {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: $primary-color;
+    border: 8px solid $primary-color;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px$primary-color;
+    -moz-box-shadow: 2px 2px 4px$primary-color;
+    box-shadow: 2px 2px 4px$primary-color;
+
+    p.speech:before {
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 30px;
+        top: 100px;
+        border: 25px solid;
+        border-color: $primary-color transparent transparent$primary-color;
+      }
+
+      p.speech:after {
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 38px;
+        top: 100px;
+        border: 15px solid;
+        border-color:  $primary-color transparent transparent $primary-color;
+      }
+      
+      
+  }
+  
+  
+ 

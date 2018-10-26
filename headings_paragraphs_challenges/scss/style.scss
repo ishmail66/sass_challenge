@@ -1,0 +1,27 @@
+// variables
+
+$primary-color: black;
+$heading-color: rgb(0, 136, 255);
+$para-color: rgb(36, 36, 198);
+$heading-color2: rgb(214, 46, 46);
+
+
+
+body {
+    background-color: $primary-color;
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+
+    h1 {
+        color:$heading-color;
+    }
+
+    p {
+        color:$para-color;
+    }
+
+    h3 {
+        color: $heading-color2; 
+    }
+}

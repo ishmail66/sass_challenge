@@ -1,0 +1,60 @@
+.container {
+    border: 0.1mm solid black;
+}
+.nav_bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: 0.1mm solid black;
+    margin: 10px;
+}
+.navi{
+    border: 0.1mm solid black;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.center_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.below_center{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.paragraph_1{
+    border: 0.1mm solid black;
+    margin: 10px;
+}
+.paragraph_2{
+    margin: 10px;
+}
+.img_1{
+    border: 0.1mm solid black;
+    margin: 10px;
+    justify-content: center;
+}
+.img_2{
+    border: 0.1mm solid black;
+    margin: 10px;
+    justify-content: center;
+}
+.img_3{
+    border: 0.1mm solid black;
+    margin: 10px;
+    justify-content: center;
+}
+.img_4{
+    border: 0.1mm solid black;
+    margin: 10px;
+    justify-content: center;
+}
+.img_5{
+    margin: 10px;
+}
+
+.end{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 0.1mm solid black;
+    margin: 10px;
+}
